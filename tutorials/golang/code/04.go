@@ -25,14 +25,14 @@ func main() {
 
 	// oder
 
-	var dreiLeckereEissorten [3]string
-	dreiLeckereEissorten[0] = "Schoko"
-	dreiLeckereEissorten[1] = "Keks"
-	dreiLeckereEissorten[2] = "Vanille"
+	var dreiLeckereEissorten2 [3]string
+	dreiLeckereEissorten2[0] = "Schoko"
+	dreiLeckereEissorten2[1] = "Keks"
+	dreiLeckereEissorten2[2] = "Vanille"
 
 	// Ausgabe
 	fmt.Println(dreiLeckereEissorten) 		// [Schoko Keks Vanille]
-	fmt.Println(dreiLeckereEissorten[1:]) // [Keks Vanille]
+	fmt.Println(dreiLeckereEissorten2[1:]) // [Keks Vanille]
 
 	// ###########################################################################
 
@@ -56,7 +56,7 @@ func main() {
 
 	// ###########################################################################
 
-	var testFloats float32 = 30.5655
-	var formatString string = fmt.Sprintf("e -> %e\n", testFloats)
+	var testFloats2 float32 = 30.5655
+	var formatString string = fmt.Sprintf("e -> %e\n", testFloats2)
 	fmt.Println(formatString)
 }
