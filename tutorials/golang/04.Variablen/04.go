@@ -59,4 +59,10 @@ func main() {
 	var testFloats2 float32 = 30.5655
 	var formatString string = fmt.Sprintf("e -> %e\n", testFloats2)
 	fmt.Println(formatString)
+
+	// ###########################################################################
+
+	// complex
+	var complx complex = 2i + 3
+	fmt.Println(complx)
 }
